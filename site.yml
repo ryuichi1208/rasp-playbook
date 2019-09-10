@@ -1,5 +1,4 @@
 - hosts: example
   tasks:
- a
   - name: Create hoge directory
     file: path=/tmp/hoge state=directory mode=0775
