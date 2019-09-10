@@ -2,5 +2,5 @@
 
 - hosts: example
   tasks:
-  - name: touch text file
-    shell: touch example.txt
+  - name: Create hoge directory
+    file: path=/tmp/hoge state=directory mode=0775
