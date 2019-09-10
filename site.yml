@@ -1,1 +1,6 @@
 ---
+
+- hosts: example
+  tasks:
+  - name: touch text file
+    shell: touch example.txt
