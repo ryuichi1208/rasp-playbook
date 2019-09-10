@@ -1,5 +1,3 @@
----
-
 - hosts: example
   tasks:
   - name: Create hoge directory
